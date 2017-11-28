@@ -1,0 +1,7 @@
+val colors1 = Set("Blue", "Green", "Red")
+var colors = colors1
+println("colors1(colors): " + colors)
+
+colors += "Black"
+println("colors: " + colors)
+println("colors1: " + colors1)
